@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+* {
+    box-sizing: border-box; /*выбираем способ расчета с учетом рамки*/
+}
+a, button{
+    transition: all .3s ease-in-out;
+}
+body{
+    font-family: 'Comfortaa', cursive;
+   
+}
+
+.container {
+    display: flex;
+    flex-direction:row;
+	justify-content: center;
+	align-items: center;/*выравнивание вдоль поперечной оси*/
+	background-color: #fdde7e;
+    min-height: 700px;
+ }
+  
+
+.container div {
+	margin: 34px;
+	
+    background-color:#ffffff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+    padding: 10px;
+    border-radius: 1%;
+}
+.cup__gold{
+      width: 360px;
+      height: 500px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+}
+
+.cup__silver, .cup__bronze{
+     width: 360px;
+     height: 440px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+   
+}
+
+.silver, .bronze, .gold{
+    list-style: none;
+    }
+    .smoke{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 0;
+           }
+.name{
+    text-align: center;
+}
+.price{
+    text-align: center;
+    font-weight: 500;
+    font-size: 70px;
+    color: #02995b;
+   
+}
