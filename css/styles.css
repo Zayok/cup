@@ -28,6 +28,41 @@ body{
     padding: 10px;
     border-radius: 1%;
 }
+.cup{
+    position: relative;
+    overflow: hidden;
+    margin: 20px auto;
+}
+.bbean{
+    display: flex;
+    justify-content: center;
+	align-items: center;
+    background-color: transparent;
+    position: absolute;
+    top: 55%;
+    right: 80%;
+    
+}
+.gbean{
+    display: flex;
+    justify-content: center;
+	align-items: center;
+    background-color: transparent;
+    position: absolute;
+    top: 55%;
+    left: 49%;
+    
+}
+.sbean{
+    display: flex;
+    justify-content: center;
+	align-items: center;
+    background-color: transparent;
+    position: absolute;
+    top: 55%;
+   left: 81cd%;
+    
+}
 .cup__gold{
       width: 360px;
       height: 500px;
@@ -54,6 +89,7 @@ body{
         align-items: center;
         justify-content: center;
         padding: 20px 0;
+       
            }
 .name{
     text-align: center;
